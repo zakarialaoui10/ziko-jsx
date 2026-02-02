@@ -1,7 +1,12 @@
 {
   "name": "ziko-jsx",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A JSX wrapper for ZikoJS",
+  "exports":{
+    ".":{
+      "import": "./src/index.js"
+    }
+  },
   "keywords": [
     "zikojs",
     "jsx"
