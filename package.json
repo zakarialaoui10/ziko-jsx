@@ -1,0 +1,31 @@
+{
+  "name": "ziko-jsx",
+  "version": "0.0.0",
+  "description": "A JSX wrapper for ZikoJS",
+  "keywords": [
+    "zikojs",
+    "jsx"
+  ],
+  "homepage": "https://github.com/zakarialaoui10/ziko-jsx#readme",
+  "bugs": {
+    "url": "https://github.com/zakarialaoui10/ziko-jsx/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakarialaoui10/ziko-jsx.git"
+  },
+  "license": "MIT",
+  "author": "zakaria elalaoui",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "acorn": "^8.15.0",
+    "acorn-jsx": "^5.3.2",
+    "acorn-walk": "^8.3.4",
+    "escodegen": "^2.1.0",
+    "ziko": "^0.60.1"
+  }
+}
