@@ -3,6 +3,7 @@ import { compile } from "../../index.js";
 export default function ZikoJSX() {
   return {
     name: "ziko-jsx-loader",
+    enforce: 'pre',
     async transform(src, id) {
     if (!id.endsWith(".jsx") && !id.endsWith(".tsx")) return null;
         const code = await compile(src);
